@@ -16,5 +16,12 @@ namespace Math_For_Video_Games
         {
             InitializeComponent();
         }
+
+        private void button_GetNumber_Click(object sender, EventArgs e)
+        {
+            Remainder remainder = new Remainder();
+            int num = remainder.GetRand();
+            textBox_Random.Text = num.ToString();
+        }
     }
 }

@@ -58,6 +58,7 @@
     <Compile Include="Ch2.Designer.cs">
       <DependentUpon>Ch2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Remainder.cs" />
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ch1Remainders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ch1Remainders.Designer.cs">
+      <DependentUpon>Ch1Remainders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ch2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ch2.Designer.cs">
+      <DependentUpon>Ch2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +66,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ch1Remainders.resx">
+      <DependentUpon>Ch1Remainders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch2.resx">
+      <DependentUpon>Ch2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>

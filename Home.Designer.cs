@@ -30,26 +30,15 @@ namespace Math_For_Video_Games
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
-            this.label_home = new System.Windows.Forms.Label();
             this.panel_SideMenu = new System.Windows.Forms.Panel();
             this.panel_Ch1Submenu = new System.Windows.Forms.Panel();
             this.button_Ch1Remainders = new System.Windows.Forms.Button();
             this.button_Ch1 = new System.Windows.Forms.Button();
             this.panel_Top = new System.Windows.Forms.Panel();
+            this.panel_ChildForm = new System.Windows.Forms.Panel();
             this.panel_SideMenu.SuspendLayout();
             this.panel_Ch1Submenu.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label_home
-            // 
-            this.label_home.AutoSize = true;
-            this.label_home.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_home.Location = new System.Drawing.Point(546, 33);
-            this.label_home.Name = "label_home";
-            this.label_home.Size = new System.Drawing.Size(86, 31);
-            this.label_home.TabIndex = 0;
-            this.label_home.Text = "Home";
-            this.label_home.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel_SideMenu
             // 
@@ -118,13 +107,21 @@ namespace Math_For_Video_Games
             this.panel_Top.Size = new System.Drawing.Size(250, 64);
             this.panel_Top.TabIndex = 0;
             // 
+            // panel_ChildForm
+            // 
+            this.panel_ChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel_ChildForm.Location = new System.Drawing.Point(250, 0);
+            this.panel_ChildForm.Name = "panel_ChildForm";
+            this.panel_ChildForm.Size = new System.Drawing.Size(684, 561);
+            this.panel_ChildForm.TabIndex = 2;
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(934, 561);
+            this.Controls.Add(this.panel_ChildForm);
             this.Controls.Add(this.panel_SideMenu);
-            this.Controls.Add(this.label_home);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(950, 600);
             this.Name = "Home";
@@ -132,18 +129,16 @@ namespace Math_For_Video_Games
             this.panel_SideMenu.ResumeLayout(false);
             this.panel_Ch1Submenu.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label_home;
         private System.Windows.Forms.Panel panel_SideMenu;
         private System.Windows.Forms.Panel panel_Ch1Submenu;
         private System.Windows.Forms.Button button_Ch1Remainders;
         private System.Windows.Forms.Button button_Ch1;
         private System.Windows.Forms.Panel panel_Top;
+        private System.Windows.Forms.Panel panel_ChildForm;
     }
 }
 

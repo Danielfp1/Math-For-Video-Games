@@ -51,11 +51,27 @@ namespace Math_For_Video_Games
 
         private void button_Ch1Remainders_Click(object sender, EventArgs e)
         {
-            //...
-            // Code
-            //...
+            
+            openChildForm(new Ch1Remainders());
             hideSubmenu();
         }
         #endregion
+
+        private Form activeForm = null;
+        private void openChildForm(Form childForm)
+        {
+            if (activeForm != null)
+            {
+                activeForm.Close();
+            }
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panel_ChildForm.Controls.Add(childForm);
+            panel_ChildForm.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
     }
 }

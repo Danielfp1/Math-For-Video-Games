@@ -15,6 +15,47 @@ namespace Math_For_Video_Games
         public Home()
         {
             InitializeComponent();
+            customizeDesing();
         }
+
+        private void customizeDesing()
+        {
+            panel_Ch1Submenu.Visible = false;
+        }
+        private void hideSubmenu()
+        {
+            if (panel_Ch1Submenu.Visible)
+            {
+                panel_Ch1Submenu.Visible=false;
+            }
+        }
+
+        private void showSubmenu(Panel subMenu)
+        {
+            if (subMenu.Visible == false)
+            {
+                hideSubmenu();
+                subMenu.Visible=true;
+            }
+            else
+            {
+                subMenu.Visible=false;
+            }
+        }
+
+        #region Submenu_Ch1
+        private void button_Ch1_Click(object sender, EventArgs e)
+        {
+            showSubmenu(panel_Ch1Submenu);
+        }
+
+        private void button_Ch1Remainders_Click(object sender, EventArgs e)
+        {
+            //...
+            // Code
+            //...
+            hideSubmenu();
+        }
+        #endregion
     }
 }

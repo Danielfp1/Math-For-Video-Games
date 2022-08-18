@@ -21,7 +21,21 @@ namespace Math_For_Video_Games
         {
             Remainder remainder = new Remainder();
             int num = remainder.GetRand();
-            textBox_Random.Text = num.ToString();
+            textBox_Num.Text = num.ToString();
+        }
+
+        private void button_Ok_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Remainder remainder = new Remainder();
+                textBox_Result.Text = remainder.GetResult(int.Parse(textBox_Num.Text), int.Parse(textBox_Denominador.Text)).ToString();
+                textBox_Remainder.Text = remainder.GetRemainder(int.Parse(textBox_Num.Text), int.Parse(textBox_Denominador.Text)).ToString();
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show(exception.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

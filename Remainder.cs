@@ -22,6 +22,7 @@ namespace Math_For_Video_Games
         {
             errorHandler(numerador, denominador);
             int result = numerador / denominador;
+            result++; 
             return result;
         }
 

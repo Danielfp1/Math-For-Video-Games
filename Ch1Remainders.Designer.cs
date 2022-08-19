@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button_GetNumber = new System.Windows.Forms.Button();
             this.textBox_Num = new System.Windows.Forms.TextBox();
             this.textBox_Denominador = new System.Windows.Forms.TextBox();
@@ -42,23 +41,11 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(64, 72);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(525, 304);
-            this.dataGridView1.TabIndex = 0;
             // 
             // button_GetNumber
             // 
-            this.button_GetNumber.Location = new System.Drawing.Point(136, 304);
+            this.button_GetNumber.Location = new System.Drawing.Point(279, 257);
             this.button_GetNumber.Name = "button_GetNumber";
             this.button_GetNumber.Size = new System.Drawing.Size(114, 30);
             this.button_GetNumber.TabIndex = 1;
@@ -68,35 +55,35 @@
             // 
             // textBox_Num
             // 
-            this.textBox_Num.Location = new System.Drawing.Point(447, 158);
+            this.textBox_Num.Location = new System.Drawing.Point(331, 96);
             this.textBox_Num.Name = "textBox_Num";
             this.textBox_Num.Size = new System.Drawing.Size(39, 20);
             this.textBox_Num.TabIndex = 2;
             // 
             // textBox_Denominador
             // 
-            this.textBox_Denominador.Location = new System.Drawing.Point(447, 196);
+            this.textBox_Denominador.Location = new System.Drawing.Point(331, 134);
             this.textBox_Denominador.Name = "textBox_Denominador";
             this.textBox_Denominador.Size = new System.Drawing.Size(39, 20);
             this.textBox_Denominador.TabIndex = 3;
             // 
             // textBox_Result
             // 
-            this.textBox_Result.Location = new System.Drawing.Point(447, 246);
+            this.textBox_Result.Location = new System.Drawing.Point(331, 181);
             this.textBox_Result.Name = "textBox_Result";
             this.textBox_Result.Size = new System.Drawing.Size(39, 20);
             this.textBox_Result.TabIndex = 4;
             // 
             // textBox_Remainder
             // 
-            this.textBox_Remainder.Location = new System.Drawing.Point(447, 291);
+            this.textBox_Remainder.Location = new System.Drawing.Point(331, 220);
             this.textBox_Remainder.Name = "textBox_Remainder";
             this.textBox_Remainder.Size = new System.Drawing.Size(39, 20);
             this.textBox_Remainder.TabIndex = 5;
             // 
             // button_Ok
             // 
-            this.button_Ok.Location = new System.Drawing.Point(279, 304);
+            this.button_Ok.Location = new System.Drawing.Point(311, 302);
             this.button_Ok.Name = "button_Ok";
             this.button_Ok.Size = new System.Drawing.Size(46, 33);
             this.button_Ok.TabIndex = 6;
@@ -107,7 +94,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(380, 199);
+            this.label1.Location = new System.Drawing.Point(264, 137);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(61, 13);
             this.label1.TabIndex = 7;
@@ -116,7 +103,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(372, 249);
+            this.label2.Location = new System.Drawing.Point(256, 184);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 13);
             this.label2.TabIndex = 8;
@@ -125,7 +112,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(383, 161);
+            this.label3.Location = new System.Drawing.Point(267, 99);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 13);
             this.label3.TabIndex = 9;
@@ -134,7 +121,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(356, 294);
+            this.label4.Location = new System.Drawing.Point(240, 223);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(85, 13);
             this.label4.TabIndex = 10;
@@ -143,7 +130,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(492, 294);
+            this.label5.Location = new System.Drawing.Point(376, 223);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(49, 13);
             this.label5.TabIndex = 11;
@@ -152,7 +139,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(492, 199);
+            this.label6.Location = new System.Drawing.Point(376, 137);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(49, 13);
             this.label6.TabIndex = 12;
@@ -161,7 +148,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(492, 161);
+            this.label8.Location = new System.Drawing.Point(376, 99);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(49, 13);
             this.label8.TabIndex = 14;
@@ -185,19 +172,15 @@
             this.Controls.Add(this.textBox_Denominador);
             this.Controls.Add(this.textBox_Num);
             this.Controls.Add(this.button_GetNumber);
-            this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Ch1Remainders";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button_GetNumber;
         private System.Windows.Forms.TextBox textBox_Num;
         private System.Windows.Forms.TextBox textBox_Denominador;

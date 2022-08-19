@@ -15,6 +15,8 @@ namespace Math_For_Video_Games
         public Ch1Remainders()
         {
             InitializeComponent();
+            button_GetNumber_Click(this, new EventArgs());
+            textBox_Denominador.Text = 30.ToString();
         }
 
         private void button_GetNumber_Click(object sender, EventArgs e)

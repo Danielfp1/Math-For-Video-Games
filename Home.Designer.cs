@@ -67,7 +67,7 @@ namespace Math_For_Video_Games
             // 
             this.button_Ch1Remainders.Dock = System.Windows.Forms.DockStyle.Top;
             this.button_Ch1Remainders.FlatAppearance.BorderSize = 0;
-            this.button_Ch1Remainders.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(34)))), ((int)(((byte)(106)))));
+            this.button_Ch1Remainders.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(70)))), ((int)(((byte)(220)))));
             this.button_Ch1Remainders.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(58)))), ((int)(((byte)(182)))));
             this.button_Ch1Remainders.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_Ch1Remainders.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(218)))), ((int)(((byte)(221)))));
@@ -85,7 +85,7 @@ namespace Math_For_Video_Games
             // 
             this.button_Ch1.Dock = System.Windows.Forms.DockStyle.Top;
             this.button_Ch1.FlatAppearance.BorderSize = 0;
-            this.button_Ch1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(34)))), ((int)(((byte)(106)))));
+            this.button_Ch1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(70)))), ((int)(((byte)(220)))));
             this.button_Ch1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(58)))), ((int)(((byte)(182)))));
             this.button_Ch1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_Ch1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(218)))), ((int)(((byte)(221)))));
@@ -109,6 +109,7 @@ namespace Math_For_Video_Games
             // 
             // panel_ChildForm
             // 
+            this.panel_ChildForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.panel_ChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_ChildForm.Location = new System.Drawing.Point(250, 0);
             this.panel_ChildForm.Name = "panel_ChildForm";

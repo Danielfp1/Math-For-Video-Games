@@ -63,6 +63,7 @@
             this.textBox_Num.Name = "textBox_Num";
             this.textBox_Num.Size = new System.Drawing.Size(39, 20);
             this.textBox_Num.TabIndex = 2;
+            this.textBox_Num.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_Num_KeyPress);
             // 
             // textBox_Denominador
             // 
@@ -70,6 +71,7 @@
             this.textBox_Denominador.Name = "textBox_Denominador";
             this.textBox_Denominador.Size = new System.Drawing.Size(39, 20);
             this.textBox_Denominador.TabIndex = 3;
+            this.textBox_Denominador.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_Denominador_KeyPress);
             // 
             // textBox_Result
             // 

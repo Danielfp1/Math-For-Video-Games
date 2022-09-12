@@ -31,8 +31,8 @@ namespace Math_For_Video_Games
             try
             {
                 Remainder remainder = new Remainder();
-                textBox_Result.Text = remainder.GetResult(int.Parse(textBox_Num.Text), int.Parse(textBox_Denominador.Text)).ToString();
-                textBox_Remainder.Text = remainder.GetRemainder(int.Parse(textBox_Num.Text), int.Parse(textBox_Denominador.Text)).ToString();
+                label_Result.Text = remainder.GetResult(int.Parse(textBox_Num.Text), int.Parse(textBox_Denominador.Text)).ToString();
+                label_Remainder.Text = remainder.GetRemainder(int.Parse(textBox_Num.Text), int.Parse(textBox_Denominador.Text)).ToString();
             }
             catch (Exception exception)
             {

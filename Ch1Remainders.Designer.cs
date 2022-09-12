@@ -1,4 +1,4 @@
-﻿namespace Math_For_Video_Games
+namespace Math_For_Video_Games
 {
     partial class Ch1Remainders
     {
@@ -31,8 +31,6 @@
             this.button_GetNumber = new System.Windows.Forms.Button();
             this.textBox_Num = new System.Windows.Forms.TextBox();
             this.textBox_Denominador = new System.Windows.Forms.TextBox();
-            this.textBox_Result = new System.Windows.Forms.TextBox();
-            this.textBox_Remainder = new System.Windows.Forms.TextBox();
             this.button_Ok = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -41,6 +39,9 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.label_Remainder = new System.Windows.Forms.Label();
+            this.label_Result = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button_GetNumber
@@ -52,7 +53,7 @@
             this.button_GetNumber.Location = new System.Drawing.Point(279, 257);
             this.button_GetNumber.Name = "button_GetNumber";
             this.button_GetNumber.Size = new System.Drawing.Size(114, 30);
-            this.button_GetNumber.TabIndex = 1;
+            this.button_GetNumber.TabIndex = 5;
             this.button_GetNumber.Text = "Get another number";
             this.button_GetNumber.UseVisualStyleBackColor = true;
             this.button_GetNumber.Click += new System.EventHandler(this.button_GetNumber_Click);
@@ -62,7 +63,7 @@
             this.textBox_Num.Location = new System.Drawing.Point(331, 96);
             this.textBox_Num.Name = "textBox_Num";
             this.textBox_Num.Size = new System.Drawing.Size(39, 20);
-            this.textBox_Num.TabIndex = 2;
+            this.textBox_Num.TabIndex = 1;
             this.textBox_Num.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_Num_KeyPress);
             // 
             // textBox_Denominador
@@ -70,22 +71,8 @@
             this.textBox_Denominador.Location = new System.Drawing.Point(331, 134);
             this.textBox_Denominador.Name = "textBox_Denominador";
             this.textBox_Denominador.Size = new System.Drawing.Size(39, 20);
-            this.textBox_Denominador.TabIndex = 3;
+            this.textBox_Denominador.TabIndex = 2;
             this.textBox_Denominador.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_Denominador_KeyPress);
-            // 
-            // textBox_Result
-            // 
-            this.textBox_Result.Location = new System.Drawing.Point(331, 181);
-            this.textBox_Result.Name = "textBox_Result";
-            this.textBox_Result.Size = new System.Drawing.Size(39, 20);
-            this.textBox_Result.TabIndex = 4;
-            // 
-            // textBox_Remainder
-            // 
-            this.textBox_Remainder.Location = new System.Drawing.Point(331, 220);
-            this.textBox_Remainder.Name = "textBox_Remainder";
-            this.textBox_Remainder.Size = new System.Drawing.Size(39, 20);
-            this.textBox_Remainder.TabIndex = 5;
             // 
             // button_Ok
             // 
@@ -115,7 +102,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(256, 184);
+            this.label2.Location = new System.Drawing.Point(267, 187);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 13);
             this.label2.TabIndex = 8;
@@ -135,7 +122,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(240, 223);
+            this.label4.Location = new System.Drawing.Point(251, 226);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(85, 13);
             this.label4.TabIndex = 10;
@@ -145,7 +132,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label5.Location = new System.Drawing.Point(376, 223);
+            this.label5.Location = new System.Drawing.Point(358, 226);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(49, 13);
             this.label5.TabIndex = 11;
@@ -171,12 +158,45 @@
             this.label8.TabIndex = 14;
             this.label8.Text = "Seconds";
             // 
+            // label_Remainder
+            // 
+            this.label_Remainder.AutoSize = true;
+            this.label_Remainder.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label_Remainder.Location = new System.Drawing.Point(342, 187);
+            this.label_Remainder.Name = "label_Remainder";
+            this.label_Remainder.Size = new System.Drawing.Size(10, 13);
+            this.label_Remainder.TabIndex = 15;
+            this.label_Remainder.Text = " ";
+            // 
+            // label_Result
+            // 
+            this.label_Result.AutoSize = true;
+            this.label_Result.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label_Result.Location = new System.Drawing.Point(342, 226);
+            this.label_Result.Name = "label_Result";
+            this.label_Result.Size = new System.Drawing.Size(10, 13);
+            this.label_Result.TabIndex = 16;
+            this.label_Result.Text = " ";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label7.Location = new System.Drawing.Point(358, 187);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(49, 13);
+            this.label7.TabIndex = 17;
+            this.label7.Text = "Seconds";
+            // 
             // Ch1Remainders
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.ClientSize = new System.Drawing.Size(684, 561);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label_Result);
+            this.Controls.Add(this.label_Remainder);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -185,8 +205,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button_Ok);
-            this.Controls.Add(this.textBox_Remainder);
-            this.Controls.Add(this.textBox_Result);
             this.Controls.Add(this.textBox_Denominador);
             this.Controls.Add(this.textBox_Num);
             this.Controls.Add(this.button_GetNumber);
@@ -202,8 +220,6 @@
         private System.Windows.Forms.Button button_GetNumber;
         private System.Windows.Forms.TextBox textBox_Num;
         private System.Windows.Forms.TextBox textBox_Denominador;
-        private System.Windows.Forms.TextBox textBox_Result;
-        private System.Windows.Forms.TextBox textBox_Remainder;
         private System.Windows.Forms.Button button_Ok;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -212,5 +228,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label_Remainder;
+        private System.Windows.Forms.Label label_Result;
+        private System.Windows.Forms.Label label7;
     }
 }

@@ -103,7 +103,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(264, 137);
+            this.label1.Location = new System.Drawing.Point(264, 99);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(61, 13);
             this.label1.TabIndex = 7;
@@ -123,11 +123,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(267, 99);
+            this.label3.Location = new System.Drawing.Point(260, 137);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 13);
+            this.label3.Size = new System.Drawing.Size(65, 13);
             this.label3.TabIndex = 9;
-            this.label3.Text = "Turn Timer";
+            this.label3.Text = "Turn Length";
             // 
             // label4
             // 

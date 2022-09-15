@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ch1RatesOfChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ch1RatesOfChange.Designer.cs">
+      <DependentUpon>Ch1RatesOfChange.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ch1Remainders.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +74,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ch1RatesOfChange.resx">
+      <DependentUpon>Ch1RatesOfChange.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ch1Remainders.resx">
       <DependentUpon>Ch1Remainders.cs</DependentUpon>
     </EmbeddedResource>

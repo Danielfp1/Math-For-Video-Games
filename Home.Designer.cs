@@ -32,6 +32,7 @@ namespace Math_For_Video_Games
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.panel_SideMenu = new System.Windows.Forms.Panel();
             this.panel_Ch1Submenu = new System.Windows.Forms.Panel();
+            this.button_RatesOfChange = new System.Windows.Forms.Button();
             this.button_Ch1Remainders = new System.Windows.Forms.Button();
             this.button_Ch1 = new System.Windows.Forms.Button();
             this.panel_Top = new System.Windows.Forms.Panel();
@@ -56,12 +57,31 @@ namespace Math_For_Video_Games
             // panel_Ch1Submenu
             // 
             this.panel_Ch1Submenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(61)))), ((int)(((byte)(61)))));
+            this.panel_Ch1Submenu.Controls.Add(this.button_RatesOfChange);
             this.panel_Ch1Submenu.Controls.Add(this.button_Ch1Remainders);
             this.panel_Ch1Submenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_Ch1Submenu.Location = new System.Drawing.Point(0, 109);
             this.panel_Ch1Submenu.Name = "panel_Ch1Submenu";
             this.panel_Ch1Submenu.Size = new System.Drawing.Size(250, 100);
             this.panel_Ch1Submenu.TabIndex = 2;
+            // 
+            // button_RatesOfChange
+            // 
+            this.button_RatesOfChange.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button_RatesOfChange.FlatAppearance.BorderSize = 0;
+            this.button_RatesOfChange.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(70)))), ((int)(((byte)(220)))));
+            this.button_RatesOfChange.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(58)))), ((int)(((byte)(182)))));
+            this.button_RatesOfChange.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_RatesOfChange.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(218)))), ((int)(((byte)(221)))));
+            this.button_RatesOfChange.Location = new System.Drawing.Point(0, 40);
+            this.button_RatesOfChange.Name = "button_RatesOfChange";
+            this.button_RatesOfChange.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.button_RatesOfChange.Size = new System.Drawing.Size(250, 40);
+            this.button_RatesOfChange.TabIndex = 1;
+            this.button_RatesOfChange.Text = "Rates of Change";
+            this.button_RatesOfChange.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_RatesOfChange.UseVisualStyleBackColor = true;
+            this.button_RatesOfChange.Click += new System.EventHandler(this.button_RatesOfChange_Click);
             // 
             // button_Ch1Remainders
             // 
@@ -140,6 +160,7 @@ namespace Math_For_Video_Games
         private System.Windows.Forms.Button button_Ch1;
         private System.Windows.Forms.Panel panel_Top;
         private System.Windows.Forms.Panel panel_ChildForm;
+        private System.Windows.Forms.Button button_RatesOfChange;
     }
 }
 

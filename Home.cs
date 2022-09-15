@@ -73,5 +73,11 @@ namespace Math_For_Video_Games
             childForm.BringToFront();
             childForm.Show();
         }
+
+        private void button_RatesOfChange_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Ch1RatesOfChange());
+            hideSubmenu();
+        }
     }
 }
